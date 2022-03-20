@@ -1,0 +1,25 @@
+READ: Nfc Tools Reference Manual!
+
+1:
+Legfrissebb Raspberry OS telepítése
+
+2:
+A Waveshare PN532 HAT-en a jumperek elhelyezése és a pinek beállítása.
+https://www.waveshare.com/wiki/PN532_NFC_HAT
+
+3:
+raspi nyelv, billenytűzet, hálózati csatlakozás, ssh, uart konfigurálás
+FONTOS:
+	> UART bekapcsolása:
+	  >> sudo raspi-config
+	  >> interface
+	  >> serial
+	  >> login shell [NO]
+	  >> serial enable [YES]
+
+(bekapcsolt shell debugging esetén az eszköz nem tudja használni a soros kapcsot)
+
+4:
+libnfc telepítése és konfigurálása:
+Abigail Torres tutorial:
+https://learn.adafruit.com/adafruit-nfc-rfid-on-raspberry-pi/building-libnfc
