@@ -1,2 +1,0 @@
-# NoneReceipt
-HSUP Projekt
