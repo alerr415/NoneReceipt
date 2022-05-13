@@ -185,4 +185,11 @@ article{
     color: white;
 }
 
+.underline {
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-style:solid;
+    text-decoration-thickness: 3px;
+}
+
 
