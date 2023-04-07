@@ -1,2 +1,2 @@
 # NoneReceipt
-HSUP Projekt
+HSUP Project
